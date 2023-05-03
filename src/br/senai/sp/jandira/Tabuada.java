@@ -33,15 +33,20 @@ public class Tabuada {
 			menor = multiplicadorMaior;
 		}
 		
+		System.out.println("");
+		System.out.println("TABUADA DO " + multiplicando);
+		System.out.println("-----------------------------");
+		System.out.println("");
+		
 		while(maior > menor) {
 			
 			tabuada = multiplicando * menor;
-			System.out.println(tabuada);
+			System.out.println(multiplicando + " x " + menor + " = " + tabuada);
 			menor++;
 			
 		}
 		
-		System.out.println(multiplicando * maior);
+		System.out.println(multiplicando + " x " + maior + " = " + multiplicando * maior);
 		
 	}
 
