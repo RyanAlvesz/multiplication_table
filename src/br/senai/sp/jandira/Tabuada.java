@@ -38,15 +38,13 @@ public class Tabuada {
 		System.out.println("-----------------------------");
 		System.out.println("");
 		
-		while(maior > menor) {
+		while(maior >= menor) {
 			
 			tabuada = multiplicando * menor;
 			System.out.println(multiplicando + " x " + menor + " = " + tabuada);
 			menor++;
 			
 		}
-		
-		System.out.println(multiplicando + " x " + maior + " = " + multiplicando * maior);
 		
 	}
 
